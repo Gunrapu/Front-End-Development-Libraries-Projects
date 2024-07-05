@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset = "UTF-8">
+    <meta 
+        name = "viewport" 
+        content = "width=device-width, initial-scale=1.0"
+    >
+    <link 
+        rel = "stylesheet" 
+        href="styles.css"
+    >
+    <link
+      rel = "stylesheet"
+      href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    >
+    <title>Random Quote Machine</title>
+  </head>
+
+  <body>
+    <div id = "wrapper">
+      <div id = "quote-box">
+        
+
+        <!-- Quote text -->
+        <div class = "quote-text">
+          <i class = "fa fa-quote-left"> </i>
+            <span id = "text"></span>
+          <i class = "fa fa-quote-right"> </i>
+        </div>
+
+        <!-- Author text -->
+        <div class = "quote-author">- <span id = "author"></span></div>
+
+        <!-- App Icon -->
+        <div class = "buttons">
+
+          <!-- Tweet button -->  
+          <a
+            class = "button"
+            id = "tweet-quote"
+            title = "Share this quote on Tweet!"
+            target = "_blank"
+          >
+            <i class = "fa fa-twitter"></i>
+          </a>
+
+          <!-- Tumblr button -->
+          <a
+            class = "button"
+            id = "tumblr-quote"
+            title = "Share this quote on Tumblr!"
+            target = "_blank"
+          >
+            <i class = "fa fa-tumblr"></i>
+          </a>
+
+          <!-- Instagram button -->
+          <a
+            class = "button"
+            id = "instagram-quote"
+            title = "Share this quote on Instagram!"
+            target = "_blank"
+          >
+            <i class = "fa fa-instagram"></i>
+          </a>
+
+          <!-- Facebook button -->
+          <a
+            class = "button"
+            id = "facebook-quote"
+            title = "Share this quote on Facebook!"
+            target = "_blank"
+          >
+            <i class = "fa fa-facebook"></i>
+          </a>
+
+          <!-- Button New Quote -->
+          <button class = "button" id = "new-quote">New quote</button>
+
+        </div>
+      </div>
+      <div class = "footer">By <a href = "" target = "_blank">Merapu</a></div>
+    </div>
+
+    <!-- jQuery import -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <!-- app.js -->
+    <script src="app.js"></script>
+
+  </body>
+</html>
