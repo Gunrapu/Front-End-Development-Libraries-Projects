@@ -1,8 +1,6 @@
-
 # Random Quote Machine
 
 This project is a simple web application that displays random quotes fetched from an external API. It allows users to view and share their favorite quotes on social media platforms.
-
 
 ## Features
 
@@ -11,7 +9,6 @@ This project is a simple web application that displays random quotes fetched fro
 - Share the displayed quote on Twitter, Tumblr, Instagram, and Facebook.
 - Responsive design for various screen sizes.
 
-
 ## Tech Stack
 
 - HTML
@@ -19,7 +16,6 @@ This project is a simple web application that displays random quotes fetched fro
 - JavaScript (including jQuery for DOM manipulation)
 - **React** (for rendering and managing UI components)
 - **Bootstrap** (for styling and layout)
-
 
 ## Setup Instructions
 
@@ -50,6 +46,10 @@ This project is a simple web application that displays random quotes fetched fro
 - Click on the **"New quote"** button to generate and display a new random quote.
 - Use the social media buttons (Twitter, Tumblr, Instagram, Facebook) to share your favorite quotes.
 
+
+## Code Pen
+
+        https://codepen.io/Gunrapu/pen/yLwKWoP
 
 ## Credits
 
