@@ -47,7 +47,7 @@ This project is a simple web application that displays random quotes fetched fro
 - Use the social media buttons (Twitter, Tumblr, Instagram, Facebook) to share your favorite quotes.
 
 
-## Code Pen
+## CodePen
 
         https://codepen.io/Gunrapu/pen/yLwKWoP
 
