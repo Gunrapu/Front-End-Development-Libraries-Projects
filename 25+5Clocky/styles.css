@@ -1,0 +1,162 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+@font-face {
+  font-family: 'Digital';
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix') format('embedded-opentype'),
+       url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2') format('woff2'),
+       url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff') format('woff'),
+       url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf') format('truetype'),
+       url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7') format('svg');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: digital;
+  overflow: hidden;
+}
+
+body {
+  background-color: #d1cdb7;
+  background-size: 0.2rem 0.2rem;
+  background-image: -webkit-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px),
+                    -webkit-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+  background-image: -moz-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px),
+                    -moz-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+  background-image: -o-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px),
+                    -o-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+  background-image: -ms-linear-gradient(left, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px),
+                    -ms-linear-gradient(top, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+  background-image: linear-gradient(to right, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px),
+                    linear-gradient(to bottom, #ccc8b1 1px, rgba(204, 200, 177, 0) 1px);
+  font-family: helvetica, sans-serif;
+  letter-spacing: 0.03rem;
+  font-weight: lighter;
+  color: #454138;
+  font-size: 30px;
+  text-align: center;
+}
+
+body #container {
+  display: flex;
+  height: 110vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+}
+
+body #container .main-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-shadow: 0.3rem 0.3rem 0 #bab5a1;
+}
+
+.panel {
+  background-color: #dcd8c0;
+  border-radius: 10px;
+  padding: 0.3rem;
+  border: 2px solid #454138;
+  margin: 0px 5px 10px 5px;
+}
+
+body .length-control #break-length,
+body .length-control #break-label,
+body .length-control #session-length,
+body .length-control #session-label,
+#timer-label,
+#time-left {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-shadow: 0.15rem 0.15rem 0 #bab5a1;
+}
+
+body #container .length-control {
+  width: 250px;
+  box-shadow: 2px 2px 4px #454138;
+}
+
+body #container button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #696355;
+  cursor: pointer;
+}
+
+body #container .btn-level,
+body #container .length-control {
+  display: inline-block;
+}
+
+body #container .btn-level .btn-level:nth-child(3),
+body #container .length-control .btn-level:nth-child(3) {
+  width: 40px;
+}
+
+body #container .timer {
+  border: 5px solid #454138;
+  margin: 10px auto 10px auto;
+  width: 270px;
+  height: 160px;
+  border-radius: 50px;
+  position: relative;
+  background-color: #dcd8c0;
+  box-shadow: 2px 2px 4px #454138;
+}
+
+body #container .timer .timer-wrapper {
+  position: absolute;
+  color: #454138;
+  width: 190px;
+  height: 110px;
+  left: 50%;
+  top: 50%;
+  margin-left: -95px;
+  margin-top: -57px;
+}
+
+body #container .timer #time-left {
+  font-family: digital;
+  font-size: 80px;
+}
+
+body #container .timer .timer-control button:active {
+  color: #13353a;
+}
+
+#start {
+  margin: 0 5px 0 5px;
+}
+
+#stop {
+  margin: 0 5px 0 0;
+}
+
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #454138;
+}
+
+.author a {
+  text-decoration: none;
+  color: #00264d;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 500px) {
+  body #container {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+}

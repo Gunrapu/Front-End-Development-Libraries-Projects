@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>25 + 5 Clocky</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="app">
+
+            <div>
+                
+                <!-- Title -->
+                <div class="main-title">
+                    25 + 5 Clock
+                </div>
+
+                <!-- Break Length Panel -->
+                <div class="length-control panel">
+
+                    <div id="break-label">
+                        Break Length
+                    </div>
+
+                    <button class="btn-level" id="break-decrement" value="-">
+                        <i class="fa fa-arrow-down fa-2x"></i>
+                    </button>
+
+                    <div class="btn-level" id="break-length">
+                        5
+                    </div>
+
+                    <button class="btn-level" id="break-increment" value="+">
+                        <i class="fa fa-arrow-up fa-2x"></i>
+                    </button>
+
+                </div>
+                
+                <!-- Session Length Panel -->
+                <div class="length-control panel">
+
+                    <div id="session-label">
+                        Session Length
+                    </div>
+
+                    <button class="btn-level" id="session-decrement" value="-">
+                        <i class="fa fa-arrow-down fa-2x"></i>
+                    </button>
+
+                    <div class="btn-level" id="session-length">
+                        25
+                    </div>
+
+                    <button class="btn-level" id="session-increment" value="+">
+                        <i class="fa fa-arrow-up fa-2x"></i>
+                    </button>
+                </div>
+
+                <!-- Time Session Panel -->
+                <div class="timer" style="color: white;">
+                    
+                    <div class="timer-wrapper">
+                        <div id="timer-label">
+                            Session
+                        </div>
+
+                        <div id="time-left">
+                            25:00
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Time Control Panel -->
+                <div class="timer-control">
+
+                    <button id="start_stop">
+                        <i class="fa fa-play fa-2x"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa fa-pause fa-2x"></i>
+                    </button>
+
+                    <button id="reset">
+                        <i class="fa fa-refresh fa-2x"></i>
+                    </button>
+                </div>
+
+                <!-- Author Panel -->
+                <div class="author"> 
+                    Designed and Coded by 
+                    <br>
+                    <a href="https://www.freecodecamp.org/no-stack-dub-sack" target="_blank" rel="noreferrer">
+                        Rapulu
+                    </a>
+                </div>
+
+                <!-- Audio -->
+                <audio 
+                    id="beep" 
+                    preload="auto" 
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/audio/BeepSound.wav">
+                </audio>
+
+            </div>
+        </div>
+    </div>
+
+    <script 
+        crossorigin = "" 
+        src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js">
+    </script>
+
+    <script 
+        crossorigin="" 
+        src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js">
+    </script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
